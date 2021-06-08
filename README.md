@@ -22,7 +22,7 @@ Please be kind and tell me what should be fixed
 	* Start Docker Desktop
 	* Start "npm i" in frontend/backend folders for local dev environment setup
 	* Start ./scripts/startdev.[ps1/sh]
-	* InitDB/Reinit DB with scripts ./scripts/dumpdb.ps1/sh ./scripts/restoredb.[ps1/sh] for test data, copy in initdb to save it if needed
+	* InitDB/Reinit DB with scripts ./scripts/dumpdb.[ps1/sh] ./scripts/restoredb.[ps1/sh] for test data, copy in initdb to save it if needed
 	* Frontend+Backend/API available on localhost:3000, 1h session time by default
 	* Backend: Test with node ./backend/index.js
 	* Backend: Test with Postman at http://localhost:3000/api/v1/(api)
@@ -33,7 +33,7 @@ Please be kind and tell me what should be fixed
 
 ## Stop: ##
 	* If data needs to be kept ./scripts/dumpdb.[ps1/sh]
-	* ./scripts/cleanup.ps1/sh
+	* ./scripts/cleanup.[ps1/sh]
 	* Quit Docker Desktop
 
 ## Deploy: ##
