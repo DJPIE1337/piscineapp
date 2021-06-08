@@ -26,3 +26,4 @@
 
 ## Déploiement: ##
 	* Lancer une instance (Specs: AWS T3A.Medium conseillée pour le build) et lancer ./scripts/startprod.sh
+	* Update: ./scripts/update.sh
