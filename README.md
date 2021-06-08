@@ -11,7 +11,7 @@
 	* Git clone the project
 	* Start Docker Desktop
 	* Start "npm i" in frontend/backend folders for local dev environment setup
-	* From Powershell start ./scripts/startdev.ps1
+	* Start ./scripts/startdev.ps1/sh
 	* InitDB/Reinit DB with scripts ./scripts/dumpdb.ps1/sh ./scripts/restoredb.ps1/sh for test data, copy in initdb to save it if needed
 	* Frontend+Backend/API available on localhost:3000, 1h session time by default
 	* Backend: Test with node ./backend/index.js
