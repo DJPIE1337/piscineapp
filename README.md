@@ -1,10 +1,10 @@
 # Piscine App #
 
 ## Setup Requirements: ##
-	* VS Code 
+	* VS Code / Your fav IDE
 	* NodeJS 
 	* NPM
-	* Powershell
+	* Powershell if on Windows
 	* Docker Desktop (Create an account for DockerHub images access)
 
 ## Setup: ##
