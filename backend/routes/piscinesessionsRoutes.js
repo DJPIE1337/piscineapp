@@ -1,0 +1,13 @@
+const express = require("express");
+const protect = require("../middleware/protect");
+const piscinesessionsController = require("../controllers/piscinesessionsController");
+const router = express.Router();
+router.route("/list/:userid").get(protect,piscinesessionsController.getAllPiscineSessions);
+router.route("/getGraphLongueurs/:userid").get(protect,piscinesessionsController.getGraphLongueurs);
+router.route("/getGraphTemps/:userid").get(protect,piscinesessionsController.getGraphTemps);
+router.route("/getGraphRatio/:userid").get(protect,piscinesessionsController.getGraphRatio);
+router.route("/:id").get(protect,piscinesessionsController.getOnePiscineSession);
+router.route("/create").post(protect,piscinesessionsController.createPiscineSession);
+router.route("/update/:id").post(protect,piscinesessionsController.updatePiscineSession);
+router.route("/delete/:id").post(protect,piscinesessionsController.deletePiscineSession);
+module.exports = router;

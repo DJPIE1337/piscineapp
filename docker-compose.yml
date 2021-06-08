@@ -1,0 +1,30 @@
+version: "3"
+services:
+    node-frontend:
+        build: ./frontend/
+        env_file:
+            - ./frontend/prodfrontend.env
+        depends_on:
+            - node-backend
+    node-backend:
+        build: ./backend/
+        env_file:
+            - ./backend/backend.env
+        depends_on:
+            - mongo
+    mongo:
+        image: mongo
+        env_file:
+            - ./mongo/mongo.env
+        volumes:
+            - ./dump/:/dump/
+    redis:
+        image: redis
+    nginx:
+        build:
+            context: ./nginx/
+        depends_on:
+            - node-backend
+            - node-frontend
+            - mongo
+            - redis

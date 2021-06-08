@@ -1,0 +1,12 @@
+{"_id":{"$oid":"60a20f11ec0c05002659664c"},"date":{"$date":{"$numberLong":"1624752000000"}},"time":"3600","value":"2", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c05002659664d"},"date":{"$date":{"$numberLong":"1624852000000"}},"time":"1800","value":"3", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c05002659664e"},"date":{"$date":{"$numberLong":"1624952000000"}},"time":"1600","value":"4", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c05002659664f"},"date":{"$date":{"$numberLong":"1625052000000"}},"time":"1200","value":"5", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596650"},"date":{"$date":{"$numberLong":"1625152000000"}},"time":"1000","value":"6", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596651"},"date":{"$date":{"$numberLong":"1625252000000"}},"time":"800","value":"7", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596652"},"date":{"$date":{"$numberLong":"1625352000000"}},"time":"600","value":"8", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596653"},"date":{"$date":{"$numberLong":"1625452000000"}},"time":"400","value":"9", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596654"},"date":{"$date":{"$numberLong":"1625552000000"}},"time":"300","value":"10", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596655"},"date":{"$date":{"$numberLong":"1625652000000"}},"time":"200","value":"11", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596656"},"date":{"$date":{"$numberLong":"1625752000000"}},"time":"100","value":"12", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"60a20f11ec0c050026596657"},"date":{"$date":{"$numberLong":"1625852000000"}},"time":"60","value":"13", "userid":"6091c0e53d027f00ad909f50", "__v":{"$numberInt":"0"}}

@@ -1,0 +1,2 @@
+docker exec piscineapp_mongo_1 mongoimport --legacy --db=piscineapp --collection=users -u "admin" -p "passwd" --authenticationDatabase admin --file /dump/users.json
+docker exec piscineapp_mongo_1 mongoimport --legacy --db=piscineapp --collection=piscinesessions -u "admin" -p "passwd" --authenticationDatabase admin --file /dump/piscinesessions.json

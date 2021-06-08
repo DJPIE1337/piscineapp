@@ -1,0 +1,13 @@
+const express = require("express");
+const protect = require("../middleware/protect");
+const destroy = require("../middleware/destroy");
+const userController = require("../controllers/userController");
+const router = express.Router();
+router.route("/list").post(protect,userController.getAllUsers);
+router.route("/create").post(protect,userController.createUser);
+router.route("/update/:id").post(protect,userController.updateUser);
+router.route("/delete/:id").post(protect,userController.deleteUser);
+router.post("/login",userController.logIn);
+router.route("/logout").get(destroy, userController.logOut);
+router.get("/verifytoken",userController.verifyToken);
+module.exports = router;

@@ -1,0 +1,10 @@
+FROM node:latest
+WORKDIR /app
+COPY package.json .
+RUN npm install
+COPY . .
+ENV PORT 4000
+ENV APIURL http://youraddress.com/api/v1/
+ENV ISPROD true
+EXPOSE $PORT
+CMD ["npm", "start"]

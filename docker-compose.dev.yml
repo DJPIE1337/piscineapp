@@ -1,0 +1,41 @@
+version: "3"
+services:
+    node-frontend:
+        build:
+            context: ./frontend/
+            dockerfile: Dockerfile.dev
+            args: 
+                NODE_ENV: development
+        volumes:
+            - ./frontend/:/app
+        environment:
+            - NODE_ENV=development
+        env_file:
+            - ./frontend/devfrontend.env
+        command: npm run dev
+        networks:
+            default:
+                aliases:
+                - node-frontend
+    node-backend:
+        build:
+            context: ./backend/
+            args: 
+                NODE_ENV: development
+        volumes:
+            - ./backend/:/app:ro
+        environment:
+            - NODE_ENV=development
+        env_file:
+            - ./backend/backend.env
+        command: npm run dev
+        networks:
+            default:
+                aliases:
+                - node-backend
+    mongo:
+        volumes:
+            - ./initdb/:/initdb/:ro
+    nginx:
+        ports:
+            - "3000:80"

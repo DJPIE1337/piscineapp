@@ -1,0 +1,1 @@
+docker exec -it piscineapp_mongo_1 mongo -u "admin" -p "passwd" --authenticationDatabase admin piscineapp
