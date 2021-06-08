@@ -1,9 +1,13 @@
 # Piscine App #
 
 MyFirstApp.jpg
+
 Please be kind and tell me what should be fixed
+
 2 ameliorations to go:
+
 -Use a datetimepicker
+
 -Stay on the app when logged in and F5 is pressed
 
 ## Setup Requirements: ##
