@@ -5,7 +5,7 @@
 	* NodeJS 
 	* NPM
 	* Powershell if on Windows
-	* Docker Desktop (Create an account for DockerHub images access)
+	* Docker/Docker Desktop (Create an account for DockerHub images access)
 
 ## Setup: ##
 	* Git clone the project
