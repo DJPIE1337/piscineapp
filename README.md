@@ -1,5 +1,7 @@
 # Piscine App #
 
+For a demo go to http://piscineapp.zbeb.eu and ask me for a login or use Name:demo/Password:login
+
 MyFirstApp.jpg
 
 Please be kind and tell me what should be fixed
