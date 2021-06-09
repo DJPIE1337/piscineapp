@@ -37,5 +37,7 @@ Please be kind and tell me what should be fixed
 	* Quit Docker Desktop
 
 ## Deploy: ##
+	* Git clone the project
+	* Change passwords/API adresses etc to your liking in config/env/"prod" files
 	* Start an instance with Docker/Docker-Compose/Git installed (Specs in AWS: T3A.Medium recommended for build) then in cloned folder start ./scripts/startprod.sh
 	* Update: ./scripts/update.sh dumps the current db, clones this repo then restarts image building, then reinputs dumped DB 
