@@ -1,6 +1,6 @@
 # Piscine App #
 
-For a demo go to http://piscineapp.zbeb.eu and ask me for a login or use Name:demo/Password:login
+For a demo go to http://piscineapp.zbeb.eu and ask me for a login or use Login:Demo/Password:login
 
 MyFirstApp.jpg
 
