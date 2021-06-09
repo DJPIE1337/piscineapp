@@ -40,7 +40,7 @@ Please be kind and tell me what should be fixed
 
 ## Deploy: ##
 	* Start an instance with Docker/Docker-Compose/Git installed (Specs in AWS: T3A.Medium recommended for build)
-	* Tips for Docker/Docker-Compose install on AWS found here https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9 
+	* Tips for Docker/Docker-Compose install on AWS Linux found here https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9 
 	* Git clone the project
 	* Change passwords/API adresses etc to your liking in config/env/"prod" files
 	* In root of cloned folder start ./scripts/startprod.[ps1/sh]
