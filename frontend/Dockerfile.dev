@@ -5,7 +5,5 @@ RUN npm install
 RUN npm audit fix
 COPY . .
 ENV PORT 4000
-ENV APIURL http://localhost:3000/api/v1/
-ENV ISPROD false
 EXPOSE $PORT
 CMD ["npm", "start"]
