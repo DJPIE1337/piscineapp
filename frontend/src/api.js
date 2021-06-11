@@ -1,9 +1,9 @@
 import axios from 'axios'
-const {APIURL} = process.env
+const {APIURL} = process.env.APIURL;
 
 const API = axios.create({
   withCredentials: true,
-  baseURL: APIURL + "api/v1/"
+  baseURL: APIURL
 })
 
 export async function apiGet(dir)
