@@ -4,7 +4,7 @@ COPY package.json .
 RUN npm install
 COPY . .
 ENV PORT 4000
-ENV APIURL localhost:3000/api/v1/
+ENV APIURL "http://localhost:3000/api/v1/"
 ENV ISPROD false
 EXPOSE $PORT
 CMD ["npm", "start"]
