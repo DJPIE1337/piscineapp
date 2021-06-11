@@ -1,5 +1,5 @@
 import axios from 'axios'
-const { APIURL } = require("./config/config");
+const {APIURL} = process.env
 
 const API = axios.create({
   withCredentials: true,

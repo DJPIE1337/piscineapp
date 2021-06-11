@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-const { ISPROD } = require("./config/config");
+const {ISPROD} = process.env
 
 if (ISPROD) {console.log = console.warn = console.error = () => {};}
 
