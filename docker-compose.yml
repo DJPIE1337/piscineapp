@@ -3,13 +3,13 @@ services:
     node-frontend:
         build: ./frontend/
         env_file:
-            - prodfrontend.env
+            - ./frontend/prodfrontend.env
         depends_on:
             - node-backend
     node-backend:
         build: ./backend/
         env_file:
-            - backend.env
+            - ./backend/backend.env
         depends_on:
             - mongo
     mongo:

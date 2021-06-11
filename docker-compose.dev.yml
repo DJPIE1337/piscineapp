@@ -11,7 +11,7 @@ services:
         environment:
             - NODE_ENV=development
         env_file:
-            - devfrontend.env
+            - ./frontend/devfrontend.env
         command: npm run dev
         networks:
             default:
@@ -27,7 +27,7 @@ services:
         environment:
             - NODE_ENV=development
         env_file:
-            - backend.env
+            - ./backend/backend.env
         command: npm run dev
         networks:
             default:
