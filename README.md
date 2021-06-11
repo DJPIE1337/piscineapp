@@ -6,7 +6,7 @@ MyFirstApp.jpg
 
 Please be kind and tell me what should be fixed
 
-2 ameliorations to go:
+1 amelioration to go:
 
 -Use a datepicker
 
