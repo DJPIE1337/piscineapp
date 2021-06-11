@@ -9,5 +9,5 @@ router.route("/update/:id").post(protect,userController.updateUser);
 router.route("/delete/:id").post(protect,userController.deleteUser);
 router.post("/login",userController.logIn);
 router.route("/logout").get(destroy, userController.logOut);
-router.get("/verifytoken",userController.verifyToken);
+router.post("/verifytoken",userController.verifyToken);
 module.exports = router;

@@ -4,19 +4,20 @@ import Login from './login';
 import Dashboard from './dashboard';
 import Admin from './admin';
 import PiscineSessions from './piscinesessions';
-import {apiGet} from './api';
+import {apiPost} from './api';
 import PrivateRoute from './utils/privateroute';
 import PublicRoute from './utils/publicroute';
-import { getToken, removeUserSession, setUserSession } from './utils/common';
+import { getToken, getUser, removeUserSession, setUserSession } from './utils/common';
 
 function App() {
   const [authLoading, setAuthLoading] = useState(true);
   useEffect(() => {
     const token = getToken(); 
+    const user = getUser(); 
     if (!token) {
       return;
     }
-    apiGet(`users/verifytoken/${token}`).then(response => {
+    apiPost(`users/verifytoken`, {token: token, user: user}).then(response => {
       setUserSession(response.data.token, response.data.user);
       setAuthLoading(false);
     }).catch(error => {

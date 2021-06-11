@@ -10,8 +10,6 @@ Please be kind and tell me what should be fixed
 
 -Use a datepicker
 
--Stay on the app when logged in and F5 is pressed
-
 ## Setup Requirements: ##
 	* VS Code / Your fav IDE
 	* NodeJS 
