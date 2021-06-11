@@ -4,7 +4,7 @@ COPY package.json .
 RUN npm install
 COPY . .
 ENV PORT 4000
-ENV APIURL http://piscineapp.zbeb.eu/api/v1/
+ENV APIURL piscineapp.zbeb.eu/api/v1/
 ENV ISPROD true
 RUN npm run build
 EXPOSE $PORT
