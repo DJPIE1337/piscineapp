@@ -3,7 +3,7 @@ const {APIURL} = process.env
 
 const API = axios.create({
   withCredentials: true,
-  baseURL: APIURL
+  baseURL: APIURL + "api/v1/"
 })
 
 export async function apiGet(dir)
