@@ -9,7 +9,7 @@ services:
         environment:
             - NODE_ENV=production
         env_file:
-            - ./frontend/prodfrontend.env
+            - prodfrontend.env
         command: npm start
         networks:
             default:
@@ -23,7 +23,7 @@ services:
         environment:
             - NODE_ENV=production
         env_file:
-            - ./backend/backend.env
+            - backend.env
         command: npm start
         networks:
             default:
