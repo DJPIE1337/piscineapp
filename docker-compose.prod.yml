@@ -10,7 +10,7 @@ services:
             - NODE_ENV=production
         env_file:
             - ./frontend/prodfrontend.env
-        command: npm start
+        command: node server.js
         networks:
             default:
                 aliases:
